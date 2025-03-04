@@ -1,24 +1,56 @@
-# Logs
-logs
+.vscode
+
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略所有 .log 文件
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# 忽略 dist 目录
+dist/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# 忽略 Maven 构建输出目录
+target/
+
+# 忽略 IntelliJ IDEA 配置文件
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 忽略 Eclipse 配置文件
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+.sts4-cache
+
+# 忽略 NetBeans 配置文件
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略 OS 特定文件
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# 忽略编辑器目录和文件
+.vscode/
+!.vscode/extensions.json
+
+# 忽略本地环境变量文件
+*.env.local
+
+# 忽略缓存文件夹和编译文件
+/.cache/
+/.sass-cache/
+*.css.map
+*.js.map
